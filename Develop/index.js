@@ -20,6 +20,16 @@ const questions = () => {
     },
     {
         type: 'input',
+        name: 'url',
+        message: 'What is the GitHub URL of your project?'
+    },
+    {
+        type: 'input',
+        name: 'name',
+        message: 'What is your GitHub Username?'
+    },
+    {
+        type: 'input',
         name: 'installation',
         message: 'Give instructions for installation',
         validate: instructionInput => {
@@ -69,8 +79,8 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'questions',
-            message: 'List any questions or concerns you have regarding the project.'
+            name: 'email',
+            message: 'Provide an email address'
         } 
     ]);
 }
