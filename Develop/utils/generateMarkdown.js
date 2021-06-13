@@ -21,6 +21,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Contributors](#contributors)
   - [License](#license)
+  - [Tests] (#tests)
 
   ### Installation
   Required to run: ${data.installation}
@@ -33,6 +34,12 @@ function generateMarkdown(data) {
 
   ### License
   ${data.license}
+
+  ### Tests
+  ${data.tests}
+
+  ### Questions
+  ${data.questions}
 
 `;
 }

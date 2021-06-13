@@ -1,11 +1,23 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
+// const { writeFile, copyFile } = require('./utils/generateMarkdown.js');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
+    {   type: 'input',
+        name: 'title',
+        message: 'What is the title of your project?',
+        validate: titleInput => {
+            if (titleInput) {
+                return true;
+            } else {
+                console.log("Please provide a title for your project.")
+            }
+        }
+    },
     {
         type: 'input',
         name: 'installation',
@@ -49,7 +61,17 @@ const questions = () => {
             name: 'license',
             message: 'Which licensing applies?',
             choices: ['MIT', 'Apache', 'Creative Commons', 'ISC', 'None']
-     }, 
+        },
+        {   
+            type: 'input',
+            name: 'tests',
+            message: 'Describe any tests run on the application'
+        },
+        {
+            type: 'input',
+            name: 'questions',
+            message: 'List any questions or concerns you have regarding the project.'
+        } 
     ]);
 }
 

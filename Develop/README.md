@@ -5,9 +5,10 @@
   - [Usage](#usage)
   - [Contributors](#contributors)
   - [License](#license)
+  - [Tests] (#tests)
 
   ### Installation
-  Instructions: undefined
+  Required to run: undefined
 
   ### Usage
   How To Use This Application: undefined
@@ -16,5 +17,11 @@
   undefined
 
   ### License
+  undefined
+
+  ### Tests
+  undefined
+
+  ### Questions
   undefined
 
