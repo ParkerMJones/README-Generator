@@ -1,4 +1,4 @@
-# Ice cream Maker
+# Read Me generator
 
   ### Table of Contents
   - [Installation](#installation)
@@ -9,29 +9,29 @@
   - [Contact](#contact)
 
   ### Installation
-  Required to run: Inquirer, Sherlock, Easel, Corgy
+  Required to run: Inquirer
 
   ### Usage
-  Description: Enter information for detailed readme
+  Description: Enter app description for detailed readme
 
   ### Contributors
-  Gary
+  George
 
   ### License
   
-![Badge]http://img.shields.io/badge/license-ISC-blue.svg
+![Badge](http://img.shields.io/badge/license-ISC-blue.svg)
   
-(https://opensource.org/licenses/ISC)
+https://opensource.org/licenses/ISC
 
 
   ### Tests
-  Gabe liked it
+  It works mostly
 
   ### Contact
   
 https://github.com/ParkerMJones
   
-![Avatar]https://github.com/ParkerMJones.png?size=50
+![Avatar](https://github.com/ParkerMJones.png?size=50)
   
 Project URL: https://github.com/ParkerMJones/README-Generator
   
