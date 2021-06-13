@@ -1,4 +1,4 @@
-# Read Me generator
+# ReadMe Generator
 
   ### Table of Contents
   - [Installation](#installation)
@@ -12,20 +12,20 @@
   Required to run: Inquirer
 
   ### Usage
-  Description: Enter app description for detailed readme
+  Description: Enter Information for Quality ReadMe
 
   ### Contributors
-  George
+  
 
   ### License
   
-![Badge](http://img.shields.io/badge/license-ISC-blue.svg)
+![Badge](http://img.shields.io/badge/license--blue.svg)
   
-https://opensource.org/licenses/ISC
+https://opensource.org/licenses/
 
 
   ### Tests
-  It works mostly
+  Try invalid github name
 
   ### Contact
   
