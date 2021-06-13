@@ -7,7 +7,7 @@
   - [License](#license)
 
   ### Installation
-  Required to run: undefined
+  Instructions: undefined
 
   ### Usage
   How To Use This Application: undefined
