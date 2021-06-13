@@ -1,4 +1,4 @@
-# undefined
+# ReadMe Generator
 
   ### Table of Contents
   - [Installation](#installation)
@@ -9,27 +9,32 @@
   - [Contact](#contact)
 
   ### Installation
-  Required to run: undefined
+  Required to run: Download a Computer
 
   ### Usage
-  How To Use This Application: undefined
+  How To Use This Application: Think of words and then type them
 
   ### Contributors
-  undefined
+  Gandhi
 
   ### License
-  undefined
+  MIT
+  ![Badge](http://img.shields.io/badge/license-MIT-blue.svg)
+  
+![Link](https://opensource.org/licenses/MIT)
+
+
 
   ### Tests
-  undefined
+  Upon loading application, the global sea level will continue to rise
 
   ### Contact
   
-![Badge](https://img.shields.io/badge/Github-undefined-4cbbb9)
+![Link](https://github.com/ParkerMJones)
   
-![Avatar](https://github.com/undefined.png?size=50)
+![Avatar](https://github.com/ParkerMJones.png?size=50)
   
-!Project URL: undefined
+Project URL: https://github.com/ParkerMJones/README-Generator
   
-Contact the developer: undefined.
+Contact the developer: parkerjones516@gmail.com.
 

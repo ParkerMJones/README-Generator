@@ -1,6 +1,5 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
-// const { writeFile, copyFile } = require('./utils/generateMarkdown.js');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
@@ -31,7 +30,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'installation',
-        message: 'Give instructions for installation',
+        message: 'What packages are required?',
         validate: instructionInput => {
             if (instructionInput) {
                 return true;
@@ -44,7 +43,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'usage',
-        message: 'Give instructions for usage',
+        message: 'Instructions for usage',
         validate: usageInput => {
             if (usageInput) {
                 return true;
@@ -70,7 +69,7 @@ const questions = () => {
             type: 'list',
             name: 'license',
             message: 'Which licensing applies?',
-            choices: ['MIT', 'Apache', 'Creative Commons', 'ISC', 'None']
+            choices: ['MIT', 'ISC', 'GPLv3', 'None']
         },
         {   
             type: 'input',
@@ -95,10 +94,14 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {
-    const answers = questions();
-    generateMarkdown(answers);
-    writeToFile("README.md", generateMarkdown(answers));
+async function init() {
+    try {
+        const answers = await questions();
+        generateMarkdown(answers);
+        writeToFile("README.md", generateMarkdown(answers));
+    } catch (err) {
+        console.log(err);
+    }
 };
 
 // Function call to initialize app
