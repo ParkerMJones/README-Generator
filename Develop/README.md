@@ -1,36 +1,36 @@
-# ReadMe Generator
+# Ice Cream Maker
 
   ### Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributors](#contributors)
   - [License](#license)
-  - [Tests] (#tests)
+  - [Tests](#tests)
   - [Contact](#contact)
 
   ### Installation
-  Required to run: Download a Computer
+  Required to run: Inquirer, Sherlock, Newton, Quantum, Easel, Corgy
 
   ### Usage
-  How To Use This Application: Think of words and then type them
+  How To Use This Application: Describe your feelings and someone will respond
 
   ### Contributors
-  Gandhi
+  David Letterman
 
   ### License
   MIT
   ![Badge](http://img.shields.io/badge/license-MIT-blue.svg)
   
-![Link](https://opensource.org/licenses/MIT)
+(https://opensource.org/licenses/MIT)
 
 
 
   ### Tests
-  Upon loading application, the global sea level will continue to rise
+  Bug: Upon completing form validation, global sea levels continue to rise
 
   ### Contact
   
-![Link](https://github.com/ParkerMJones)
+(https://github.com/ParkerMJones)
   
 ![Avatar](https://github.com/ParkerMJones.png?size=50)
   

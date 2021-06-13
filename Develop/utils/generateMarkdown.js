@@ -38,7 +38,7 @@ function generateMarkdown(data) {
   Required to run: ${data.installation}
 
   ### Usage
-  How To Use This Application: ${data.usage}
+  Description: ${data.usage}
 
   ### Contributors
   ${data.credits}
@@ -46,7 +46,7 @@ function generateMarkdown(data) {
   ### License
   ${data.license}
   ![Badge](${licenseIcon})
-  \n![Link](${licenceLink})
+  \n(${licenceLink})
 
 
 
@@ -54,7 +54,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ### Contact
-  \n![Link](${gitHub})
+  \n(${gitHub})
   \n![Avatar](${avatar})
   \nProject URL: ${data.url}
   \nContact the developer: ${data.email}.
