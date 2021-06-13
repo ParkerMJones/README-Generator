@@ -1,4 +1,4 @@
-# README-Generator
+# README.md Generator
 
   ### Table of Contents
   - [Installation](#installation)
