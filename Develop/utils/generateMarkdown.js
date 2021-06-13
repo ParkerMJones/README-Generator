@@ -44,8 +44,8 @@ function generateMarkdown(data) {
   ${data.credits}
 
   ### License
-  \n![Badge]${licenseIcon}
-  \n(${licenceLink})
+  \n![Badge](${licenseIcon})
+  \n${licenceLink}
 
 
   ### Tests
@@ -53,7 +53,7 @@ function generateMarkdown(data) {
 
   ### Contact
   \n${gitHub}
-  \n![Avatar]${avatar}
+  \n![Avatar](${avatar})
   \nProject URL: ${data.url}
   \nContact the developer: ${data.email}.
 
