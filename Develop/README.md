@@ -1,4 +1,4 @@
-# Ice Cream Maker
+# Ice cream Maker
 
   ### Table of Contents
   - [Installation](#installation)
@@ -9,30 +9,29 @@
   - [Contact](#contact)
 
   ### Installation
-  Required to run: Inquirer, Sherlock, Newton, Quantum, Easel, Corgy
+  Required to run: Inquirer, Sherlock, Easel, Corgy
 
   ### Usage
-  How To Use This Application: Describe your feelings and someone will respond
+  Description: Enter information for detailed readme
 
   ### Contributors
-  David Letterman
+  Gary
 
   ### License
-  MIT
-  ![Badge](http://img.shields.io/badge/license-MIT-blue.svg)
   
-(https://opensource.org/licenses/MIT)
-
+![Badge]http://img.shields.io/badge/license-ISC-blue.svg
+  
+(https://opensource.org/licenses/ISC)
 
 
   ### Tests
-  Bug: Upon completing form validation, global sea levels continue to rise
+  Gabe liked it
 
   ### Contact
   
-(https://github.com/ParkerMJones)
+https://github.com/ParkerMJones
   
-![Avatar](https://github.com/ParkerMJones.png?size=50)
+![Avatar]https://github.com/ParkerMJones.png?size=50
   
 Project URL: https://github.com/ParkerMJones/README-Generator
   

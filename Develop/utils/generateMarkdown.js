@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Contributors](#contributors)
   - [License](#license)
-  - [Tests] (#tests)
+  - [Tests](#tests)
   - [Contact](#contact)
 
   ### Installation
@@ -44,18 +44,16 @@ function generateMarkdown(data) {
   ${data.credits}
 
   ### License
-  ${data.license}
-  ![Badge](${licenseIcon})
+  \n![Badge]${licenseIcon}
   \n(${licenceLink})
-
 
 
   ### Tests
   ${data.tests}
 
   ### Contact
-  \n(${gitHub})
-  \n![Avatar](${avatar})
+  \n${gitHub}
+  \n![Avatar]${avatar}
   \nProject URL: ${data.url}
   \nContact the developer: ${data.email}.
 
